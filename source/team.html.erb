@@ -1,0 +1,16 @@
+---
+title: Le Wagon - Teams
+---
+
+<div id="about">
+  <div class="row">
+    <ul class="list-inline text-center">
+      <% ["thomasjoujou", "rduthel"].each do |gh_username| %>
+        <li class="col-xs-3 col-xs-offset-2">
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+          <h2><%= gh_username.capitalize %></h2>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
